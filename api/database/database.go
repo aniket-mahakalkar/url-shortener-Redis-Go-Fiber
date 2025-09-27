@@ -10,7 +10,7 @@ import (
 
 var Ctx = context.Background()
 
-func CreateClien(dbNo int) *redis.Client {
+func CreateClient(dbNo int) *redis.Client {
 
 	rdb := redis.NewClient(&redis.Options{
 
